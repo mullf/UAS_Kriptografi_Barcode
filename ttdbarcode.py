@@ -3,7 +3,7 @@ from barcode.writer import ImageWriter
 from PIL import Image
 
 nm = ""
-gambar = "https://github.com/mullf/UAS_Kriptografi_Barcode"
+gambar = "https://mullf.github.io/"
 
 ean = barcode.get('code128', gambar, writer=ImageWriter())
 nama = input("Masukkan nama barcode")
